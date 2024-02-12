@@ -1,13 +1,18 @@
 :root{
-    --gold: #b38642;
+    --gold: #A3680F;
     --red: #dc3546;
+    --col-collage: #9c9c9c;
     --silver: #c0c0c0;
-    --blue: #479af0;
+    --blue: #0778D6;
     --white: white;
     --grey: #5d5c5c;
     --lightgrey: #e2e2e2;
+    --col-time: #616161;
+    --col-dealmonth: #f4f4f4;
+    --balck: #333;
     --backblack: #333;
     --blacktrans: #333C;
+    --col-footer:#f8f9fb;
     --paddingticket: 2px;
 }
 
@@ -114,7 +119,7 @@ a{
 .xbutton{
     background-color: var(--gold);
     border: none;
-    color: #d2b98e;
+    color: var(--white);
 }
 
 .settings{
@@ -305,7 +310,7 @@ a{
     display: flex;
     height: 150px;
     color: var(--white);
-    background-color: #9c9c9c;
+    background-color: var(--col-collage);
     border: 5px solid var(--white);
 }
 
@@ -524,7 +529,7 @@ a{
 
 .collage2{
     position: relative;
-    background-color: #9c9c9c;
+    background-color: var(--col-collage);
     border: 5px solid var(--white);
 }
 
@@ -559,7 +564,7 @@ a{
 }
 
 .dealmonth{
-    background-color: #f4f4f4;
+    background-color: var(--col-dealmonth);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-weight: bold;
@@ -613,7 +618,7 @@ a{
 }
 
 .time section{
-    background-color: #616161;
+    background-color: var(--col-time);
     width: 50px;
     text-align: center;
     color: var(--white);
@@ -778,7 +783,7 @@ a{
     background-color: var(--blacktrans);
     font-size: 0.68rem;
     font-family: Montserrat,sans-serif;
-    color: #fff;
+    color: var(--white);
     padding: 7px 10px;
     text-align: center;
     font-weight: bold;
@@ -794,7 +799,7 @@ iframe{
 }
 
 footer{
-    background-color: #f8f9fb;
+    background-color: var(--col-footer);
     padding: 2% 10%;
 }
 
@@ -837,7 +842,7 @@ footer{
 .information ul li a{
     text-decoration: none;
     color: var(--grey);
-    background-color: #f8f9fb;
+    background-color: var(--col-footer);
 }
 
 .store img{
@@ -869,7 +874,7 @@ footer{
 }
 
 .float:hover{
-    box-shadow: 0 0 8px 0 #000;
+    box-shadow: 0 0 8px 0 var(--balck);
     transition-duration: 0.5s;
 }
 

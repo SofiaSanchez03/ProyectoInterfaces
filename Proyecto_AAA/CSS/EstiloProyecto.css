@@ -12,7 +12,6 @@
     --balck: #333;
     --backblack: #333;
     --blacktrans: #333C;
-    --col-footer:#f8f9fb;
     --paddingticket: 2px;
 }
 
@@ -799,7 +798,7 @@ iframe{
 }
 
 footer{
-    background-color: var(--col-footer);
+    background-color: var(--white);
     padding: 2% 10%;
 }
 
@@ -842,7 +841,7 @@ footer{
 .information ul li a{
     text-decoration: none;
     color: var(--grey);
-    background-color: var(--col-footer);
+    background-color: var(--white);
 }
 
 .store img{

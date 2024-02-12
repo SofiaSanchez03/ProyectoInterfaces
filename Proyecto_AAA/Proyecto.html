@@ -66,18 +66,14 @@
             <div class="search">
                 <img class="logo" style="width: 30%;" src="Imagenes/Logo_Katora.png" alt="Logo">
                 <form action="#" style="margin-top: 2.5%;" method="post">
-                    <!-- <div class="categories"> -->
-                        <select class="categories" name="Categories" id="Categories" title="categories">
-                            <option value="All">All Categories</option>
-                            <option value="Rings">Rings</option>
-                            <option value="Earrings">Earrings</option>
-                            <option value="Necklaces">Necklaces</option>
-                        </select>
-                    <!-- </div> -->
-                    <!-- <label for="searched"></label> -->
+                    <select class="categories" name="Categories" id="Categories" title="categories">
+                        <option value="All">All Categories</option>
+                        <option value="Rings">Rings</option>
+                        <option value="Earrings">Earrings</option>
+                        <option value="Necklaces">Necklaces</option>
+                    </select>
                     <input type="text" placeholder="  Search Products...." title="searched">
-                    <a href="#"><img src="Imagenes/Lupa.png" alt="Buscador" role="button"></a>
-
+                    <button type="submit"><a href="#"><img src="Imagenes/Lupa.png" alt="Buscador" ></a></button>
                 </form>
                 <div class="favcart">
                     <div class="btnsearch">
@@ -529,14 +525,14 @@
                                 <label for="color1"><span style="font-weight: bold;">Color :</span> Silver</label>
                                 <input type="radio" name="color1" id="color1" class="hidden">
                                 <div class="colors">
-                                    <div class="silver" role="button"></div>
-                                    <div class="gold" role="button"></div>
+                                    <button type="submit"><div class="silver"></div></button>
+                                    <button type="submit"><div class="gold"></div></button>
                                 </div>
                                 <label for="size1"><span style="font-weight: bold;">Size</span> : 28</label>
                                 <input type="radio" name="size1" id="size1" class="hidden">
                                 <div class="sizes">
-                                    <div class="size1" role="button">28</div>
-                                    <div class="size2" role="button">32</div>
+                                    <button type="submit"><div class="size1">28</div></button>
+                                    <button type="submit"><div class="size2">32</div></button>
                                 </div>
                             </form>
                             <button>ADD TO CART</button>
@@ -556,14 +552,14 @@
                                 <label for="color2"><span style="font-weight: bold;">Color :</span> Silver</label>
                                 <input type="radio" name="color2" id="color2" class="hidden">
                                 <div class="colors">
-                                    <div class="silver" role="button"></div>
-                                    <div class="gold" role="button"></div>
+                                    <button type="submit"><div class="silver"></div></button>
+                                    <button type="submit"><div class="gold"></div></button>
                                 </div>
                                 <label for="size2"><span style="font-weight: bold;">Size</span> : 28</label>
                                 <input type="radio" name="size2" id="size2" class="hidden">
                                 <div class="sizes">
-                                    <div class="size1" role="button">28</div>
-                                    <div class="size2" role="button">32</div>
+                                    <button type="submit"><div class="size1">28</div></button>
+                                    <button type="submit"><div class="size2">32</div></button>
                                 </div>
                             </form>
                             <button>ADD TO CART</button>
@@ -835,7 +831,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <form action="#" method="post">
                 <input type="text" placeholder="Your Email..." title="email">
-                <a href="#" role="button">SUBSCRIBE</a>
+                <button type="submit"><a href="#">SUBSCRIBE</a></button>
             </form>
         </section>
         <section class="information">

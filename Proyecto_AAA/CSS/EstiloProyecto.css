@@ -21,6 +21,7 @@ h1{
     font-size: 0.5rem;
     margin: 10px 50px;
     color: var(--gold);
+    position: absolute;
 }
 
 .price{

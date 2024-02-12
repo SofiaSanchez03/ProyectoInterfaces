@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GitHub/Proyecto/CSS/EstiloProyecto.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100&family=Montserrat:wght@700&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto:wght@700&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+        .hidden{
+            display: none;
+        }
+    </style>
+    <title>Katora</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="hidden">Katora</h1>
+
+        <section>
+            <h2 class="hidden">Message</h2>
+            <div class="message">
+                <div>Get <span style="font-weight: bold;">UPTO 40% OFF</span> on your 1st order <a href="#" style="font-weight: bold;">More details</a></div>
+                <button class="xbutton">X</button>
+            </div>
+        </section>
+
+        <section class="settings">
+            <h2 class="hidden">Settings</h2>
+            <form action="#" method="post">
+                <select class="english" name="Language" id="language">
+                    <option value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Italian">Italian</option>
+                    <option value="French">French</option>
+                </select>
+
+                <select class="usd" name="Money" id="Money">
+                    <option value="USD">USD</option>
+                    <option value="EURO">EURO</option>
+                </select>
+
+                <div>
+                    <audio id="audio" autoplay loop controls style="margin: 0% 35%;">
+                        <source src="/GitHub/Proyecto/Audios/Audio_Katora.mp3">
+                         Tu navegador no soporta el elemento del audio.
+                    </audio>
+                </div>
+
+                <label class="welcome" for="Account">Welcome User</label>
+
+                <select class="account" name="Account" id="Account">
+                    <option value="Account">My Account</option>
+                    <option value="Sign">Sign Up</option>
+                    <option value="Settings">Settings</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <h2 class="hidden">Search</h2>
+            <div class="search">
+                <img class="logo" style="width: 30%;" src="/GitHub/Proyecto/Imagenes/Logo_Katora.png" alt="Logo">
+                <form action="#" style="margin-top: 2.5%;" method="post">
+                    <!-- <div class="categories"> -->
+                        <select class="categories" name="Categories" id="Categories">
+                            <option value="All">All Categories</option>
+                            <option value="Rings">Rings</option>
+                            <option value="Earrings">Earrings</option>
+                            <option value="Necklaces">Necklaces</option>
+                        </select>
+                    <!-- </div> -->
+                    <input type="text" placeholder="  Search Products....">
+                    <a href="#"><img src="/GitHub/Proyecto/Imagenes/Lupa.png" alt="Buscador"></a>
+                </form>
+                <div class="favcart">
+                    <div class="btnsearch">
+                        <a href="#"><img src="/GitHub/Proyecto/Imagenes/Favoritos.png" alt="Favoritos"></a>
+                        <div class="counter1">0</div>
+                    </div>
+                    <div class="btnsearch">
+                        <a href="#"><img src="/GitHub/Proyecto/Imagenes/Carrito.png" alt="Cesta"></a>
+                        <div class="counter2">0</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <nav class="menu">
+        <h2 class="hidden">Nav</h2>
+        <ul>
+            <li><a href="#">HOME</a>
+                <ul>
+                    <li><a href="#">Home 1</a></li>
+                    <li><a href="#">Home 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">MEGA MENU</a>
+                <div class="navnew">NEW</div>
+                <ul>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">SHOP</a>
+                <ul>
+                    <li><a href="#">Shop 1</a></li>
+                    <li><a href="#">Shop 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">PRODUCT</a>
+                <ul>
+                    <li><a href="#">Product 1</a></li>
+                    <li><a href="#">Product 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">PAGES</a>
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="carrusel1">
+            <h2 class="hidden">Carrusel Inicial</h2>
+            <ul> 
+                <li>
+                    <article>
+                        <div class="dreams">MAKE YOUR DREAMS TRUE</div>
+                        <h3 class="pulse">Be Vibrant with Matchless Jewelry</h3>
+                        <a href="#">SHOP NOW</a>
+                        <div class="cuadrados">
+                            <div class="cuadrado gold"></div>
+                            <div class="cuadrado"></div>
+                            <div class="cuadrado"></div>
+                        </div>
+                    </article>
+                </li>
+                <!--
+                <li>
+                    <article>
+                        <h3>Be Vibrant with Matchless Jewelry</h3>
+                        <div>MAKE YOUR DREAMS TRUE</div>
+                        <img src="/Imagenes/Imagen_Carrusel_SinTexto.png" alt="Fondo">
+                        <a href="#">SHOP NOW</a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Be Vibrant with Matchless Jewelry</h3>
+                        <div>MAKE YOUR DREAMS TRUE</div>
+                        <img src="/Imagenes/Imagen_Carrusel_SinTexto.png" alt="Fondo">
+                        <a href="#">SHOP NOW</a>
+                    </article>
+                </li>
+                -->
+            </ul>
+        </section>
+
+        <nav class="collage">
+            <div class="collage1">
+                <ul>
+                    <li>
+                        <a href="#" class="earrings">
+                            <div>
+                                <h3>Vibrant Earrings</h3>
+                                <div>Great Deals</div>
+                            </div>
+                            <!-- <img src="/Imagenes/VibrantEarrings.png" alt="Imagen"> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="gifts">
+                            <div>
+                                <h3>Jewelry Gifts</h3>
+                                <div>Best Match</div>
+                            </div>
+                            <!-- <img src="/Imagenes/JewelryGifts.png" alt="Imagen"> -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collage2">
+                <ul>
+                    <li>
+                        <a href="#" class="latestdesigns">
+                            <div>
+                                <h3>Latest Designs of Pendant</h3>
+                                <div>Designer Jewelry</div>
+                            </div>
+                            <!-- <img src="/Imagenes/LatestDesigns.png" alt="ImagenGrande"> -->
+                        </a>
+                        <div class="collagebutton">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="collage3">
+                <ul>
+                    <li>
+                        <a href="#" class="band">
+                            <div>
+                                <h3>Band Collection</h3>
+                                <div>With Pearls</div>
+                            </div>
+                            <!-- <img src="/Imagenes/BandCollection.png" alt="Imagen"> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="diamond">
+                            <div>
+                                <h3>Diamond Rings</h3>
+                                <div>A Precious Feeling</div>
+                            </div>
+                            <!-- <img src="/Imagenes/DiamondRings.png" alt="Imagen"> -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
+        </nav>
+
+        <section class="welcomestore">
+            <h2>Welcome to Store</h2>
+            <section class="topsales">
+                <div class="allstores">
+                    <h3>TOP SALES</h3>
+                    <div>TRENDING</div>
+                    <div>WINTER SALE</div>
+                </div>
+                <ul>
+                    <li>
+                        <article>
+                            <div class="product float">
+                                <div class="tickets">
+                                    <div class="featured">FEATURED</div>
+                                    <div class="new">NEW</div>
+                                    <div class="sale">SALE</div>
+                                </div>
+                                <img src="/GitHub/Proyecto/Imagenes/Anillo1.png" alt="Producto">
+                            </div>
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="product float">
+                                <div class="new">NEW</div>
+                                <img src="/GitHub/Proyecto/Imagenes/Pendientes1.png" alt="Producto">
+                            </div>
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="product float">
+                                <img src="/GitHub/Proyecto/Imagenes/Anillo2.png" alt="Producto">
+                            </div>
+                            <h4>Women Crystal Zircon Wedding Function Rings</h4>
+                            <div class="price">$85.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="product float">
+                                <div class="sale">SALE</div>
+                                <img src="/GitHub/Proyecto/Imagenes/Anillo3.png" alt="Producto">
+                            </div>
+                            <h4>Women Crystal Zircon Engagement And Wedding Rings</h4> 
+                            <div class="price">$110.00</div>
+                        </article>
+                    </li>
+                    <!--
+                    <li>
+                        <article>
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div>FEATURED</div>
+                            <div>NEW</div>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div>NEW</div>
+                            <img src="/Imagenes/Pendientes1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Wedding Function Rings</h4>
+                            <img src="/Imagenes/Anillo2.png" alt="Producto">
+                            <div class="price">$85.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Engagement And Wedding Rings</h4>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo3.png" alt="Producto">
+                            <div class="price">$110.00</div>
+                        </article>
+                    </li>
+                    -->
+                </ul>
+                <div class="cuadrados">
+                    <div class="cuadrado gold"></div>
+                    <div class="cuadrado"></div>
+                </div>
+            </section>
+            <!--
+            <section>
+                <h3>TRENDING</h3>
+                <ul>
+                    <li>
+                        <article>
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div>FEATURED</div>
+                            <div>NEW</div>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div>NEW</div>
+                            <img src="/Imagenes/Pendientes1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Wedding Function Rings</h4>
+                            <img src="/Imagenes/Anillo2.png" alt="Producto">
+                            <div class="price">$85.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Engagement And Wedding Rings</h4>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo3.png" alt="Producto">
+                            <div class="price">$110.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div>FEATURED</div>
+                            <div>NEW</div>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div>NEW</div>
+                            <img src="/Imagenes/Pendientes1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Wedding Function Rings</h4>
+                            <img src="/Imagenes/Anillo2.png" alt="Producto">
+                            <div class="price">$85.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Engagement And Wedding Rings</h4>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo3.png" alt="Producto">
+                            <div class="price">$110.00</div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>WINTER SALE</h3>
+                <ul>
+                    <li>
+                        <article>
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div>FEATURED</div>
+                            <div>NEW</div>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div>NEW</div>
+                            <img src="/Imagenes/Pendientes1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Wedding Function Rings</h4>
+                            <img src="/Imagenes/Anillo2.png" alt="Producto">
+                            <div class="price">$85.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Engagement And Wedding Rings</h4>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo3.png" alt="Producto">
+                            <div class="price">$110.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div>FEATURED</div>
+                            <div>NEW</div>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div>NEW</div>
+                            <img src="/Imagenes/Pendientes1.png" alt="Producto">
+                            <div class="price">$285.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Wedding Function Rings</h4>
+                            <img src="/Imagenes/Anillo2.png" alt="Producto">
+                            <div class="price">$85.00</div>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4>Women Crystal Zircon Engagement And Wedding Rings</h4>
+                            <div>SALE</div>
+                            <img src="/Imagenes/Anillo3.png" alt="Producto">
+                            <div class="price">$110.00</div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            -->
+
+        </section>
+
+        <section class="dealmonth">
+            <div class="superdeal">
+                <h2>Super deal of the Month</h2>
+                <p>Women Zircon Crystal Engagement Ring</p>
+                <div class="deals">
+                    <div class="crossout">$180</div>
+                    <div class="deal">$250</div>
+                </div>
+                <section class="time">
+                    <h3 class="hidden">Cuenta atrás</h3>
+                
+                    <section>
+                        <div style="font-weight: bold;">362</div>
+                        <h4>Days</h4>
+                    </section>
+                
+                    <section>
+                        <div style="font-weight: bold;">7</div>
+                        <h4>Hour</h4>
+                    </section>
+                
+                    <section>
+                        <div style="font-weight: bold;">08</div>
+                        <h4>Min</h4>
+                    </section>
+                
+                    <section>
+                        <div style="font-weight: bold;">55</div>
+                        <h4>Sec</h4>
+                    </section>
+                </section>
+                <a href="#">GRAB NOW</a>
+            </div>
+            <img src="/GitHub/Proyecto/Imagenes/AnilloSuperOfertaMes.png" alt="Imagen">
+        </section>
+
+        <section class="arrivals">
+            <h2>New Arrivals</h2>
+            <p>Vitae posuere urna blandit sed. Praesent ut dignissim risus.</p>
+            <ul>
+                <li>
+                    <article>
+                        <div class="product float">
+                            <div class="tickets">
+                                <div class="featured">FEATURED</div>
+                                <div class="new">NEW</div>
+                                <div class="sale">SALE</div>
+                            </div>
+                            <img src="/GitHub/Proyecto/Imagenes/Anillo1.png" alt="producto">
+                        </div>
+                        <div class="infoproduct">
+                            <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                            <div class="price">$285.00</div>
+                            <form action="#" method="post">
+                                <label for="color1"><span style="font-weight: bold;">Color :</span> Silver</label>
+                                <input type="radio" name="color1" id="color1" class="hidden">
+                                <div class="colors">
+                                    <div class="silver"></div>
+                                    <div class="gold"></div>
+                                </div>
+                                <label for="size1"><span style="font-weight: bold;">Size</span> : 28</label>
+                                <input type="radio" name="size1" id="size1" class="hidden">
+                                <div class="sizes">
+                                    <div class="size1">28</div>
+                                    <div class="size2">32</div>
+                                </div>
+                            </form>
+                            <button>ADD TO CART</button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="product float">
+                            <div class="new">NEW</div>
+                            <img src="/GitHub/Proyecto/Imagenes/Pendientes1.png" alt="producto">
+                        </div>
+                        <div class="infoproduct">
+                            <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                            <div class="price">$285.00</div>
+                            <form action="#" method="post">
+                                <label for="color2"><span style="font-weight: bold;">Color :</span> Silver</label>
+                                <input type="radio" name="color2" id="color2" class="hidden">
+                                <div class="colors">
+                                    <div class="silver"></div>
+                                    <div class="gold"></div>
+                                </div>
+                                <label for="size2"><span style="font-weight: bold;">Size</span> : 28</label>
+                                <input type="radio" name="size2" id="size2" class="hidden">
+                                <div class="sizes">
+                                    <div class="size1">28</div>
+                                    <div class="size2">32</div>
+                                </div>
+                            </form>
+                            <button>ADD TO CART</button>
+                        </div>
+                    </article>
+                </li>
+                <!--
+                <li>
+                    <article>
+                        <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                        <div class="price">$285.00</div>
+                        <div>FEATURED</div>
+                        <div>NEW</div>
+                        <div>SALE</div>
+                        <img src="/Imagenes/Anillo1.png" alt="producto">
+                        <form action="#" method="post">
+                            <label for="color3">Color: Silver</label>
+                            <input type="radio" name="color3" id="color3" class="hidden">
+                            <div class="colors">
+                                <div class="silver"></div>
+                                <div class="gold"></div>
+                            </div>
+                            <label for="size3">Size: 28</label>
+                            <input type="radio" name="size3" id="size3" class="hidden">
+                            <div class="sizes">
+                                <div class="size1">28</div>
+                                <div class="size2">32</div>
+                            </div>
+                        </form>
+                        <button>ADD TO CART</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                        <div class="price">$285.00</div>
+                        <div>NEW</div>
+                        <img src="/Imagenes/Pendientes1.png" alt="producto">
+                        <form action="#" method="post">
+                            <label for="color4">Color: Silver</label>
+                            <input type="radio" name="color4" id="color4" class="hidden">
+                            <div class="colors">
+                                <div class="silver"></div>
+                                <div class="gold"></div>
+                            </div>
+                            <label for="size4">Size: 28</label>
+                            <input type="radio" name="size4" id="size4" class="hidden">
+                            <div class="sizes">
+                                <div class="size1">28</div>
+                                <div class="size2">32</div>
+                            </div>
+                        </form>
+                        <button>ADD TO CART</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                        <div class="price">$285.00</div>
+                        <div>FEATURED</div>
+                        <div>NEW</div>
+                        <div>SALE</div>
+                        <img src="/Imagenes/Anillo1.png" alt="producto">
+                        <form action="#" method="post">
+                            <label for="color5">Color: Silver</label>
+                            <input type="radio" name="color5" id="color5" class="hidden">
+                            <div class="colors">
+                                <div class="silver"></div>
+                                <div class="gold"></div>
+                            </div>
+                            <label for="size5">Size: 28</label>
+                            <input type="radio" name="size5" id="size5" class="hidden">
+                            <div class="sizes">
+                                <div class="size1">28</div>
+                                <div class="size2">32</div>
+                            </div>
+                        </form>
+                        <button>ADD TO CART</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                        <div class="price">$285.00</div>
+                        <div>NEW</div>
+                        <img src="/Imagenes/Pendientes1.png" alt="producto">
+                        <form action="#" method="post">
+                            <label for="color6">Color: Silver</label>
+                            <input type="radio" name="color6" id="color6" class="hidden">
+                            <div class="colors">
+                                <div class="silver"></div>
+                                <div class="gold"></div>
+                            </div>
+                            <label for="size6s">Size: 28</label>
+                            <input type="radio" name="size6" id="size6" class="hidden">
+                            <div class="sizes">
+                                <div class="size1">28</div>
+                                <div class="size2">32</div>
+                            </div>
+                        </form>
+                        <button>ADD TO CART</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Austrian Crystals Engagement Jewelry Ring</h4>
+                        <div class="price">$285.00</div>
+                        <div>FEATURED</div>
+                        <div>NEW</div>
+                        <div>SALE</div>
+                        <img src="/Imagenes/Anillo1.png" alt="producto">
+                        <form action="#" method="post">
+                            <label for="color7">Color: Silver</label>
+                            <input type="radio" name="color7" id="color7" class="hidden">
+                            <div class="colors">
+                                <div class="silver"></div>
+                                <div class="gold"></div>
+                            </div>
+                            <label for="size7">Size: 28</label>
+                            <input type="radio" name="size7" id="size7" class="hidden">
+                            <div class="sizes">
+                                <div class="size1">28</div>
+                                <div class="size2">32</div>
+                            </div>
+                        </form>
+                        <button>ADD TO CART</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Crystal Water Drop Wedding Function Earrings</h4>
+                        <div class="price">$285.00</div>
+                        <div>NEW</div>
+                        <img src="/Imagenes/Pendientes1.png" alt="producto">
+                        <form action="#" method="post">
+                            <label for="color8">Color: Silver</label>
+                            <input type="radio" name="color8" id="color8" class="hidden">
+                            <div class="colors">
+                                <div class="silver"></div>
+                                <div class="gold"></div>
+                            </div>
+                            <label for="size8">Size: 28</label>
+                            <input type="radio" name="size8" id="size8" class="hidden">
+                            <div class="sizes">
+                                <div class="size1">28</div>
+                                <div class="size2">32</div>
+                            </div>
+                        </form>
+                        <button>ADD TO CART</button>
+                    </article>
+                </li>
+                -->
+            </ul>
+            <div class="cuadrados">
+                <div class="cuadrado gold"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+        </section>
+
+        <section class="perfectmatch">
+            <h2>The Perfect Match</h2>
+            <div>Vitae posuere urna blandit sed. Praesent ut dignissim risus</div>
+            <a href="#"> SHOP NOW</a>
+            <img src="/GitHub/Proyecto/Imagenes/PerfectMatch_2.png" alt="Fondo">
+        </section>
+
+        <section class="latest">
+            <h2>Latest Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul>
+                <li>
+                    <article>
+                        <div class="fecha">14 JAN</div>
+                        <img src="/GitHub/Proyecto/Imagenes/blog1.png" alt="Blog">
+                        <h4>Woman wearing Silver-colored ring necklaces</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.[...]</p>
+                        <div><a href="#">Read more</a></div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="fecha">01 AUG</div>
+                        <img src="/GitHub/Proyecto/Imagenes/blog2.png" alt="Blog">
+                        <h4>White gold engagement rings for couples</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.[...]</p>
+                        <div><a href="#">Read more</a></div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="fecha">20 OCT</div>
+                        <img src="/GitHub/Proyecto/Imagenes/blog3.png" alt="Blog">
+                        <h4>Shallow focus photo of gold-colored ring</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.[...]</p>
+                        <div><a href="#">Read more</a></div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="fecha">14 SEP</div>
+                        <img src="/GitHub/Proyecto/Imagenes/blog4.png" alt="Blog">
+                        <h4>Pearl necklace jewelry treasure box</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.[...]</p>
+                        <div><a href="#">Read more</a></div>
+                    </article>
+                </li>
+                <!--
+                <li>
+                    <article>
+                        <h4>Woman wearing Silver-colored ring necklaces</h4>
+                        <div>14 JAN</div>
+                        <img src="/Imagenes/blog1.png" alt="Blog">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div><a href="#">Read More...</a></div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>White gold engagement rings for couples</h4>
+                        <div>01 AUG</div>
+                        <img src="/Imagenes/blog2.png" alt="Blog">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div><a href="#">Read More...</a></div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Shallow focus photo of gold-colored ring</h4>
+                        <div>20 OCT</div>
+                        <img src="/Imagenes/blog3.png" alt="Blog">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div><a href="#">Read More...</a></div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h4>Pearl necklace jewelry treasure box</h4>
+                        <div>14 SEP</div>
+                        <img src="/Imagenes/blog4.png" alt="Blog">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <div><a href="#">Read More...</a></div>
+                    </article>
+                </li>
+                -->
+            </ul>
+            <div class="cuadrados">
+                <div class="cuadrado gold"></div>
+                <div class="cuadrado"></div>
+            </div>
+        </section>
+        <section>
+            <h2 style="font-size: 1.8srem; text-align: center; color: #b38642;">Videos</h2>
+            <video width="640" height="360" controls style="margin: 2% 28%;">
+                <source src="/GitHub/Proyecto/Videos/VideoProyecto.mp4" type="video/mp4">
+            </video>
+            <iframe width="640" height="360" style="margin: 2% 28%;"
+            src="https://www.youtube.com/embed/2k9z3271syk?si=fkW1cl145z4fD3dj"
+             title="YouTube video player" frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+             gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <section class="newsletter">
+            <h2>SIGN UP FOR NEWSLETTER & GET ALL UPDATE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="#" method="post">
+                <input type="text" placeholder="Your Email...">
+                <a href="#">SUBSCRIBE</a>
+            </form>
+        </section>
+        <section class="information">
+            <h2 class="hidden">Information</h2>
+
+            <section class="store">
+                <h3>Store</h3>
+                <img src="/GitHub/Proyecto/Imagenes/LogoEmpresa.png" alt="Logo">
+                <p>1223, Main Street, Anytown New York, 3800 USA</p>
+                <div>888 · 963 · 600</div>
+                <div>info@example.com</div>
+            </section>
+
+            <section>
+                <h3>Info</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Constact Us</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Our Polices</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>My Account</h3>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Shopping Cart</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Social Network</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </section>
+
+        </section>
+
+        <section class="copyrigth">
+            <h2 class="hidden">CopyRigth</h2>
+            <p>&#169; 2019 Company, Inc. Privacy · Terms</p>
+        </section>
+
+        <section>
+            <h2 class="hidden">SVG</h2>
+            <svg height="130" width="500" style="margin: 0% 43%;">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%"
+                    style="stop-color:rgb(229,161,85);stop-opacity:1" />
+                    <stop offset="100%"
+                    style="stop-color:rgb(228,225,225);stop-opacity:0.5" />
+                  </linearGradient>
+                </defs>
+                <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+                <text fill="#ffffff" font-size="45" font-family="Verdana"
+                x="50" y="86">SSH</text>
+              Sorry, your browser does not support inline SVG.
+              </svg>
+        </section>
+    </footer>
+
+</body>
+
+</html>

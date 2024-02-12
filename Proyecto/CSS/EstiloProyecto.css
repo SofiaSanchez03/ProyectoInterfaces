@@ -372,7 +372,7 @@ a{
 }
 
 .menu ul li a::after{
-    content: url("Imagenes/Flecha.png");
+    content: url("../Imagenes/Flecha.png");
     margin: 10px;
 }
 

@@ -783,6 +783,7 @@ iframe{
     width: 640px;
     height: 360px;
     margin: 2% 28%;
+    border: none;
 }
 
 footer{

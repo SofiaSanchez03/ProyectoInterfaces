@@ -18,8 +18,9 @@ body{
 }
 
 h1{
-    font-size: 0.2rem;
-    margin-top: 10px;
+    font-size: 05rem;
+    margin: 10px 50px;
+    color: var(--gold);
 }
 
 .price{

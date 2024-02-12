@@ -472,7 +472,7 @@ a{
 
 
 .collage .earrings{
-    background-image: url('/Proyecto_AAA/Imagenes/VibrantEarrings.png');
+    background-image: url('Proyecto_AAA/Imagenes/VibrantEarrings.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -480,7 +480,7 @@ a{
 }
 
 .collage .gifts{
-    background-image: url('/Proyecto_AAA/Imagenes/JewelryGifts.png');
+    background-image: url('Proyecto_AAA/Imagenes/JewelryGifts.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -488,7 +488,7 @@ a{
 }
 
 .collage .latestdesigns{
-    background-image: url('/Proyecto_AAA/Imagenes/LatestDesigns.png');
+    background-image: url('Proyecto_AAA/Imagenes/LatestDesigns.png');
     background-repeat: no-repeat;
     background-size: auto;
     height: 410px;
@@ -496,7 +496,7 @@ a{
 }
 
 .collage .band{
-    background-image: url('/Proyecto_AAA/Imagenes/BandCollection.png');
+    background-image: url('Proyecto_AAA/Imagenes/BandCollection.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -504,7 +504,7 @@ a{
 }
 
 .collage .diamond{
-    background-image: url('/Proyecto_AAA/Imagenes/DiamondRings.png');
+    background-image: url('Proyecto_AAA/Imagenes/DiamondRings.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;

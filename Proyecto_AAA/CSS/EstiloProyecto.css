@@ -17,6 +17,7 @@
 
 body{
     font-family: Montserrat, sans-serif;
+    font-display: swap;
     margin: 0%;
     font-size: 16px;
 }
@@ -677,9 +678,9 @@ a{
     border: 2px solid black;
 }
 
-/* .perfectmatch img{
+.perfectmatch img{
     width: 100%;
-} */
+}
 
 .perfectmatch h2{
     margin: 15% 40%;
@@ -722,7 +723,7 @@ a{
 }
 
 .product img{
-    /* width: 220px; */
+    width: 220px;
     margin-left: 8px;
 }
 
@@ -773,9 +774,9 @@ a{
     width: 250px;
 }
 
-/* .latest img{
+.latest img{
     width: 250px;
-} */
+}
 
 .fecha{
     position: absolute;
@@ -844,9 +845,9 @@ footer{
     background-color: var(--white);
 }
 
-/* .store img{
+.store img{
     width: 120px;
-} */
+}
 
 .copyrigth{
     color: var(--grey);

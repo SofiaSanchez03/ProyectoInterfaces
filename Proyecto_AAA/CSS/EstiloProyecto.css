@@ -383,7 +383,7 @@ a{
 }
 
 .menu ul li a::after{
-    content: url("/Imagenes/Flecha.png");
+    content: url("/Imagenes/Flecha.webp");
     margin: 10px;
 }
 
@@ -426,7 +426,7 @@ a{
 }
 
 .carrusel1{
-    background-image: url('../Imagenes/Imagen_Carrusel_SinTexto.png');
+    background-image: url('../Imagenes/Imagen_Carrusel_SinTexto.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -483,7 +483,7 @@ a{
 
 
 .collage .earrings{
-    background-image: url('../Imagenes/VibrantEarrings.png');
+    background-image: url('../Imagenes/VibrantEarrings.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -491,7 +491,7 @@ a{
 }
 
 .collage .gifts{
-    background-image: url('../Imagenes/JewelryGifts.png');
+    background-image: url('../Imagenes/JewelryGifts.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -499,7 +499,7 @@ a{
 }
 
 .collage .latestdesigns{
-    background-image: url('../Imagenes/LatestDesigns.png');
+    background-image: url('../Imagenes/LatestDesigns.webp');
     background-repeat: no-repeat;
     background-size: auto;
     height: 410px;
@@ -507,7 +507,7 @@ a{
 }
 
 .collage .band{
-    background-image: url('../Imagenes/BandCollection.png');
+    background-image: url('../Imagenes/BandCollection.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -515,7 +515,7 @@ a{
 }
 
 .collage .diamond{
-    background-image: url('../Imagenes/DiamondRings.png');
+    background-image: url('../Imagenes/DiamondRings.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;

@@ -677,9 +677,9 @@ a{
     border: 2px solid black;
 }
 
-.perfectmatch img{
+/* .perfectmatch img{
     width: 100%;
-}
+} */
 
 .perfectmatch h2{
     margin: 15% 40%;
@@ -773,9 +773,9 @@ a{
     width: 250px;
 }
 
-.latest img{
+/* .latest img{
     width: 250px;
-}
+} */
 
 .fecha{
     position: absolute;
@@ -844,9 +844,9 @@ footer{
     background-color: var(--white);
 }
 
-.store img{
+/* .store img{
     width: 120px;
-}
+} */
 
 .copyrigth{
     color: var(--grey);
